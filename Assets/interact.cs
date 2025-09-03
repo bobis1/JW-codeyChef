@@ -6,6 +6,7 @@ public class interact : MonoBehaviour
 {
     public string trigger;
     public GameObject Bread;
+    public GameObject heldItem;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class interact : MonoBehaviour
             if(trigger == "bread")
             {
                 print("Codey wants bread");
+                heldItem = Instantiate(Bread, transform, false);
             }
         }
     }

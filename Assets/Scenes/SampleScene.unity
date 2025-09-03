@@ -608,11 +608,31 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3934414, y: 2.1093774, z: 1.7706692}
   m_Center: {x: -1.0049326e-16, y: 1.0600314, z: -0.117928386}
+--- !u!1 &631090220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2033886546264645911, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+  m_PrefabInstance: {fileID: 810979903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &631090225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3054153929615610628, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
   m_PrefabInstance: {fileID: 810979903}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &631090226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631090220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d2157bfa23a694a9f0ebdcdf80dce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 
+  Bread: {fileID: 884555395}
+  heldItem: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +932,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2033886546264645911, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631090226}
   m_SourcePrefab: {fileID: 100100000, guid: b32bd5e0a44542f40b06626d0f879530, type: 3}
 --- !u!1001 &860002562
 PrefabInstance:
@@ -999,6 +1022,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 515660266}
   m_SourcePrefab: {fileID: 100100000, guid: 31264236aa69f49fba6ca492242bd217, type: 3}
+--- !u!1 &884555395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7452505427296041060, guid: a84a6e47eea48ae438274c4e391f0551, type: 3}
+  m_PrefabInstance: {fileID: 805178162}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +1835,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
