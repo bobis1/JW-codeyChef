@@ -22,6 +22,7 @@ public class interact : MonoBehaviour
             {
                 print("Codey wants bread");
                 heldItem = Instantiate(Bread, transform, false);
+                heldItem.transform.localPosition = new Vector3(0,0, 2);
             }
         }
     }

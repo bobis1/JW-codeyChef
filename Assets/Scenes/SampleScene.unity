@@ -631,7 +631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: 
-  Bread: {fileID: 884555395}
+  Bread: {fileID: 7452505427296041060, guid: 2bd43ea3b13a47743b3ebe2a0a019a3a, type: 3}
   heldItem: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1022,11 +1022,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 515660266}
   m_SourcePrefab: {fileID: 100100000, guid: 31264236aa69f49fba6ca492242bd217, type: 3}
---- !u!1 &884555395 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7452505427296041060, guid: a84a6e47eea48ae438274c4e391f0551, type: 3}
-  m_PrefabInstance: {fileID: 805178162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
